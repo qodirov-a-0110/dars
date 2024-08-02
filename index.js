@@ -177,3 +177,47 @@
 //}
 //console.log(i);
 
+// let arr = [1,4,8,7,9,6,2,3];
+// let num = 4;
+// let res = arr.indexOf(num);
+// console.log(res);
+
+// let arr = [1,4,8,7,9,6,2,3];
+// let num = 4;
+// let res = arr.includes(num);
+// console.log(res);
+
+
+// let arr = [1,4,7,8,9,5,-5,-3,-7,-5];
+
+// function test(arr) {
+//     let a = [];
+//     let b = [];
+//    for (const iterator of arr) {
+//         if (iterator >= 0) {
+//             a.push(arr)
+//         }else{
+//             b.push(arr);
+//         }
+//    }
+//    return [a,b] ;
+   
+// }
+
+
+// console.log(arr);
+
+
+// let arr = [1,2,3];
+// let n = 3;
+// let res = arr.forEach(function (value) {
+    
+// })
+
+let arr = [1,4,5,1,0,5];
+function test(arr) {
+    let res = Math.trunc(Math.random()*arr.length);
+    return arr[res];
+
+}
+console.log(test(arr));
